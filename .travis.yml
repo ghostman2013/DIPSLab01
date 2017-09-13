@@ -5,3 +5,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "061a2d11-5eae-47de-a4d6-5c41e09d57f7"
+  app: contedevel-dips-lab01
