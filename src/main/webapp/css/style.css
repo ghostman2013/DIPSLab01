@@ -1,0 +1,27 @@
+body {
+    background-image: url("../images/bg_black_woven.jpg");
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+    min-width: 50%;
+    min-height: 96px;
+    padding: 24px 12px 12px 12px;
+}
