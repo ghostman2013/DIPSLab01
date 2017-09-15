@@ -10,7 +10,11 @@ public class HomeController {
 
     @RequestMapping(value = "/")
     public String home(@RequestParam(required = false) String arg, Model model) {
-        model.addAttribute("msg", "Hello, World!");
+        model.addAttribute("msg", getHelloStr());
         return "test";
+    }
+
+    public String getHelloStr() {
+        return "Hello, World!";
     }
 }

@@ -9,11 +9,20 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <build>
+        <testSourceDirectory>${basedir}/src/main/test</testSourceDirectory>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>4.1.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
