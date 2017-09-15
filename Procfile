@@ -1,1 +1,1 @@
-web: java -cp ./target/lab01.jar main.Main $PORT
+web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
